@@ -23,7 +23,7 @@ const JoinUs = () => {
               <img src="/assets/linkedin-logo.png" alt="LinkedIn" className="w-12 h-12 mb-2 group-hover:scale-110 transition-transform" />
               <span className="text-white font-semibold group-hover:text-electric-yellow transition-colors">LinkedIn</span>
             </a>
-            <a href="https://www.commudle.com/communities/creators-adda" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center group">
+            <a href="https://www.commudle.com/communities/linkedout" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center group">
               <img src="/assets/commudle-logo.png" alt="Commudle" className="w-12 h-12 mb-2 group-hover:scale-110 transition-transform" />
               <span className="text-white font-semibold group-hover:text-electric-yellow transition-colors">Commudle</span>
             </a>
