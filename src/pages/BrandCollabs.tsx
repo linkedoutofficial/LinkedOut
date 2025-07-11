@@ -113,7 +113,7 @@ const BackToHomeFixed = () => (
 
 const BrandCollabs = () => {
   return (
-	<div className="min-h-screen bg-background text-foreground font-poppins pt-0">
+	<div className="min-h-screen bg-background text-foreground font-poppins pt-0 pb-32">
 	  <Navigation />
 	  <div id="hero">
 		<HeroSection />
@@ -124,7 +124,7 @@ const BrandCollabs = () => {
 	  <div id="stats">
 		<StatsCards />
 	  </div>
-  <BackToHomeFixed />
+	  <BackToHomeFixed />
 	</div>
   );
 };

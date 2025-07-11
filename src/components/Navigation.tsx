@@ -34,9 +34,9 @@ const Navigation = () => {
         { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
         { name: 'Inside The Community', href: '#inside-community' },
-        { name: 'Partners', href: '#partners' },
         { name: 'Testimonials', href: '#testimonials' },
         { name: 'FAQ', href: '#faq' },
+        { name: 'Partners', href: '#partners' },
       ];
 
   return (
@@ -61,16 +61,28 @@ const Navigation = () => {
               <div className="mr-4">
                 <ThemeToggle />
               </div>
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  onClick={e => handleAnchorClick(e, link.href.replace('#', ''))}
-                  className="text-foreground hover:text-electric-yellow px-3 py-2 text-sm font-medium transition-colors"
-                >
-                  {link.name}
-                </a>
-              ))}
+              <button onClick={() => scrollToSection('hero')} className="text-foreground hover:text-electric-yellow px-3 py-2 text-sm font-medium transition-colors">
+                Home
+              </button>
+              <button onClick={() => scrollToSection('about')} className="text-foreground hover:text-electric-yellow px-3 py-2 text-sm font-medium transition-colors">
+                About Us
+              </button>
+              <a
+                href="#inside-community"
+                onClick={e => handleAnchorClick(e, 'inside-community')}
+                className="text-foreground hover:text-electric-yellow px-3 py-2 text-sm font-medium transition-colors"
+              >
+                Inside The Community
+              </a>
+              <button onClick={() => scrollToSection('partners')} className="text-foreground hover:text-electric-yellow px-3 py-2 text-sm font-medium transition-colors">
+                Partners
+              </button>
+              <button onClick={() => scrollToSection('testimonials')} className="text-foreground hover:text-electric-yellow px-3 py-2 text-sm font-medium transition-colors">
+                Testimonials
+              </button>
+              <button onClick={() => scrollToSection('faq')} className="text-foreground hover:text-electric-yellow px-3 py-2 text-sm font-medium transition-colors">
+                FAQs
+              </button>
               <a 
                 href="#socials"
                 onClick={e => handleAnchorClick(e, 'socials')}
