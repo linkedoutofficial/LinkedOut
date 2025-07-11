@@ -55,7 +55,7 @@ const FeedbackCirclesSection = () => (
 			{/* Navigation arrow back to Inside the community section */}
 			<div className="w-full flex justify-center mt-12">
 				<a
-					href="#community"
+					href="/"
 					className="flex items-center gap-2 bg-yellow-100 dark:bg-yellow-900 rounded-full px-6 py-3 shadow font-bold text-electric-yellow dark:text-yellow-200 hover:bg-yellow-200 dark:hover:bg-yellow-800 transition-colors"
 					aria-label="Back to Home"
 				>

@@ -44,16 +44,18 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
-            <img
-              src="/assets/linkedout-logo-light-theme.jpg"
-              alt="LinkedOut Logo Light"
-              className="w-10 h-10 rounded-full object-cover border-2 border-electric-yellow shadow block dark:hidden"
-            />
-            <img
-              src="/assets/linkedout-logo-dark-theme.jpg"
-              alt="LinkedOut Logo Dark"
-              className="w-10 h-10 rounded-full object-cover border-2 border-electric-yellow shadow hidden dark:block"
-            />
+            <a href="/" aria-label="Go to Home">
+              <img
+                src="/assets/linkedout-logo-light-theme.jpg"
+                alt="LinkedOut Logo Light"
+                className="w-10 h-10 rounded-full object-cover border-2 border-electric-yellow shadow block dark:hidden"
+              />
+              <img
+                src="/assets/linkedout-logo-dark-theme.jpg"
+                alt="LinkedOut Logo Dark"
+                className="w-10 h-10 rounded-full object-cover border-2 border-electric-yellow shadow hidden dark:block"
+              />
+            </a>
           </div>
           {/* Desktop Menu */}
           <div className="hidden md:block">

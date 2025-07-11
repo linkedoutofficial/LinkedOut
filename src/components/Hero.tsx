@@ -28,7 +28,9 @@ const Hero = () => {
         {/* Call-to-action buttons with better spacing */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <a 
-            href="#"
+            href="https://forms.gle/td9DkMsKwc1V34TK8"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-yellow-400 text-black px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:bg-black hover:text-white"
           >
             Apply via Google Form
