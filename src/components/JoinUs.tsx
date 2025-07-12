@@ -41,7 +41,18 @@ const JoinUs = () => {
           </div>
         </div>
       </div>
-      
+      <div className="mt-8 flex justify-center">
+        <a
+          href="https://linkedout.kit.com/f076d5cd9b"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block font-bold py-3 px-6 rounded-full shadow-lg text-lg transition-colors
+            bg-white text-electric-yellow hover:bg-yellow-100
+            dark:bg-black dark:text-electric-yellow dark:hover:bg-zinc-900"
+        >
+          Subscribe to Our Newsletter
+        </a>
+      </div>
     </section>
   );
 };
